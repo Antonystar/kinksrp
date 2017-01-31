@@ -1,2 +1,2 @@
 # kinksrp
-Web application designed special for the roleplay community 
+Web application designed specially for the roleplay community 
