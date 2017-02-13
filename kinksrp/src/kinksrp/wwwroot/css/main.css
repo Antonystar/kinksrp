@@ -1,0 +1,96 @@
+﻿#container {
+    overflow: hidden;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+
+#main_content {
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+
+    /* Vertical center */
+    top: 35%;
+    transform: translateY(-50%);
+}
+
+#main_content h1 {
+
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgba(255, 122,0, 0.8);
+    font-size: 60px;
+}
+
+#main_content .sub_head {
+    color: rgba(188, 99,0, 0.8);
+    font-size: 42px;
+    margin-top: -20px;
+}
+
+#main_content .info {
+    color: rgba(255,255,255,0.5);
+    font-size: 12px;
+    margin-top: 10px;
+}
+        
+#links {
+    margin-top: 50%;
+}
+
+#links a {
+    border: 2px solid rgba(100,50,0,0.20);
+    border-radius: 30px;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2px 5px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#video_cover {
+    position: absolute;
+
+    width: 100%; height: 100%;
+
+    background: url('video_cover.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+video {
+    position: absolute;
+
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+
+    object-fit: cover;
+    height: 100%; width: 100%;
+}
+
+body {
+    text-align: center;
+    font-family: 'proxima-nova', Helvetica;
+}
+
+.subdomainlogo {
+    width: 360px;
+    height: 180px;
+}
+
+.footer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: rgba(100,50,0,0.20);
+    text-align: right;
+}
+
+.footer-text{
+    color: rgba(122, 66,0, 0.8);
+}

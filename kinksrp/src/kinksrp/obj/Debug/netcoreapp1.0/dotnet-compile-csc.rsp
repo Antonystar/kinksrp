@@ -7,8 +7,8 @@
 -debug:full
 -nostdlib
 -nologo
-"C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\src\kinksrp\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\src\kinksrp\bin\Debug\netcoreapp1.0\kinksrp.dll"
+"C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\bin\Debug\netcoreapp1.0\kinksrp.dll"
 -r:"C:\Users\Anton\.nuget\packages\Microsoft.AspNetCore.Antiforgery\1.0.1\lib\netstandard1.3\Microsoft.AspNetCore.Antiforgery.dll"
 -r:"C:\Users\Anton\.nuget\packages\Microsoft.AspNetCore.Authorization\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Authorization.dll"
 -r:"C:\Users\Anton\.nuget\packages\Microsoft.AspNetCore.Cors\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Cors.dll"
@@ -181,10 +181,10 @@
 -r:"C:\Users\Anton\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\Anton\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\Anton\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
--resource:"C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\src\kinksrp\obj\Debug\netcoreapp1.0\kinksrpdotnet-compile.deps.json",kinksrp.deps.json
-"C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\src\kinksrp\AreaRoutingExtensions.cs"
-"C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\src\kinksrp\AreaRoutingMiddleware.cs"
-"C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\src\kinksrp\Program.cs"
-"C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\src\kinksrp\Startup.cs"
-"C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\src\kinksrp\Areas\Wow\Controllers\HomeController.cs"
-"C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\src\kinksrp\Controllers\HomeController.cs"
+-resource:"C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\obj\Debug\netcoreapp1.0\kinksrpdotnet-compile.deps.json",kinksrp.deps.json
+"C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\AreaRoutingExtensions.cs"
+"C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\AreaRoutingMiddleware.cs"
+"C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\Program.cs"
+"C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\Startup.cs"
+"C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\Areas\Wow\Controllers\HomeController.cs"
+"C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\Controllers\HomeController.cs"
