@@ -14,7 +14,7 @@ namespace kinksrp.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            return View(new string[] { "wow"});
+            return View(new string[] { "wow" , "lesha"});
         }
     }
 }

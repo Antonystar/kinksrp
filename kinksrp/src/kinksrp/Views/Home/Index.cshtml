@@ -1,4 +1,5 @@
 ﻿@model IEnumerable<String>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 @{
     Layout = null;
@@ -12,6 +13,7 @@
 </head>
 <body>
     <link rel="stylesheet" type="text/css" href="~/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="~/lib/hover/css/hover-min.css" />
     
     <div id="container">
         <video autoplay muted loop>
@@ -20,12 +22,13 @@
 
         <section id="main_content">
             <div id="head">
-                <h1>Kinks RP</h1>
+                <h1>Kinks</h1>
                 <p class="sub_head">Friendliest community ever</p>
             </div>
 
-            <div id="links">
-               <a href="http://wow.kinksrp.com/"> <img   class="subdomainlogo" src="~/images/wow.png" /></a>
+            <div class="hvr-shadow" id="links" >
+               <a asp-area="wow" asp-action="Index" > <img   class="hvr-bob" width="360" height="180" src="~/images/wow.png" /></a>
+                
             </div>
         </section>
 
@@ -33,8 +36,7 @@
             <div class="footer-text">
                 <a class="footer-text" href="https://github.com/Antonystar/kinksrp">
                     KinksRP
-                </a>
-                © 2017
+                </a> © 2017
             </div>
         </div>
     </div>

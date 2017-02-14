@@ -1,0 +1,27 @@
+﻿
+body {
+    background-image: url(../images/wowbackground.jpg)
+}
+
+.wow-block-centrify{
+    position: relative;
+
+    left: 25%;
+}
+
+.wow-block-width-wide{
+    width: 50%
+}
+
+.wow-block-height-thin{
+    height: 60px
+}
+
+.wow-block{
+    background-color:  rgba(60,60,60,0.90)
+}
+
+.wow-text-default{
+    font-family: 'Roboto', serif;
+    color: white
+}
