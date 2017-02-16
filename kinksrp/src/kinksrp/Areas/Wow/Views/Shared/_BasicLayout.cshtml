@@ -6,18 +6,26 @@
     <title>@ViewBag.Title</title>
     <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="~/css/wow.css" />
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Vollkorn">
 </head>
 <body>
+    <div class="wow-block-centrify wow-block-width-wide wow-block-height-thin wow-text-default" >
+        <a href="#">
+            <img src="~/images/logo.png" id="wow-preheader-logo" />
+        </a>
+            <p class="wow-text-centered" style="font-size: 24px; font-weight:700;">Barrens of Time </p>
+            <p class="wow-text-centered" style="font-size: 20px; font-weight:500; float: right"></p>
+</div>
     <div class="wow-block wow-block-centrify wow-block-width-wide wow-block-height-thin wow-text-default">
-        Header
+        <p class="wow-text-centered"> Header </p>
     </div>
     <div class="wow-text-default wow-block-centrify wow-block-width-wide">
-        <h1>Basic layout</h1>
         @RenderBody()
     </div>
-    <div class="wow-block wow-block-centrify wow-block-width-wide wow-block-height-thin wow-text-default" >
-        Footer
+    <div class="wow-block wow-block-centrify wow-block-width-wide wow-block-height-thin wow-text-default " >
+        <p class="wow-text-centered"> <a  href="https://github.com/Antonystar/kinksrp">
+    KinksRP
+</a> © 2017 </p>
     </div>
 </body>
 </html>

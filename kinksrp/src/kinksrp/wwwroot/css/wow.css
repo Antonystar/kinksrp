@@ -5,12 +5,12 @@ body {
 
 .wow-block-centrify{
     position: relative;
-
-    left: 25%;
+    
+    left: 20%;
 }
 
 .wow-block-width-wide{
-    width: 50%
+    width: 60%;
 }
 
 .wow-block-height-thin{
@@ -18,10 +18,65 @@ body {
 }
 
 .wow-block{
-    background-color:  rgba(60,60,60,0.90)
+    margin: 0px 10px 10px 0px;
+    background-color:  rgba(60,60,60,0.90);
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.wow-block-title{
+    background-color:  rgba(255,255,255,0.90);
+    font-weight: 600;
+    font-size: 20px;
+    color:  rgba(60,60,60,1);
+    height: 40px;
+}
+
+.wow-block-body{
+
 }
 
 .wow-text-default{
-    font-family: 'Roboto', serif;
+    font-family: 'Vollkorn', serif;
+    font-size: 16px;
     color: white
+}
+
+.wow-text-centered{
+   -webkit-transform: translate(0,-50%);
+   margin: 0px 0px 0px 5px;
+   position: relative;               
+   top: 50%;                         
+   transform: translate(0, -50%);
+   float: left;
+}
+
+#wow-preheader-logo{
+    max-height:100%;
+    height: auto;
+    position: relative;
+    float: left;
+
+}
+
+.wow-content-main{
+    float:left;
+    width:calc(100% - 200px);
+	position:relative;
+    
+}
+
+.wow-content-right-column{
+    float:right;
+    width:200px;
+	position:relative;
+}
+
+
+a{
+    color: orange
+}
+
+a:hover {
+    color: gold;
 }

@@ -5,11 +5,9 @@ using System.Threading.Tasks;
 
 namespace kinksrp.Areas.Wow.Models
 {
-    public class Post
+    public class Section
     {
-        public int PostID { get; set; }
         public int SectionID { get; set; }
-        public string Content { get; set; }
-        public DateTime Date { get; set; }
+        public string Name { get; set; }
     }
 }

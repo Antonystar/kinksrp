@@ -73,7 +73,7 @@ video {
 
 body {
     text-align: center;
-    font-family: 'proxima-nova', Helvetica;
+    font-family: 'Vollkorn', serif;
 }
 
 .subdomainlogo {
@@ -93,6 +93,5 @@ body {
 
 .footer-text{
     color: rgba(122, 66,0, 0.8);
-
 
 }

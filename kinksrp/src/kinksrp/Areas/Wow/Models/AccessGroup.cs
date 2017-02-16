@@ -5,12 +5,10 @@ using System.Threading.Tasks;
 
 namespace kinksrp.Areas.Wow.Models
 {
-    public class User
+    public class AccessGroup
     {
-        public int UserID { get; set; }
-        public string Name { get; set; }
-        public string Password { get; set; }
         public int AccessGroupID { get; set; }
-        public DateTime Date {get; set;}
+        public string Name { get; set; }
+        private bool Banned { get; set; }
     }
 }

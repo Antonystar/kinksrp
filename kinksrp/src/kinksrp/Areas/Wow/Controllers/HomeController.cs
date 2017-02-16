@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using kinksrp.Areas.Wow.Models.ViewModel;
 
 // For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -14,7 +15,7 @@ namespace kinksrp.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            return View(new string[] { "wow" , "lesha"});
+            return View(new WowViewModel());
         }
     }
 }
