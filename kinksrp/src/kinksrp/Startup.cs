@@ -29,7 +29,7 @@ namespace kinksrp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseMySql(Configuration["Data:ConnectionStrings:WowConnectionString"]));
+                options.UseMySql(Configuration["Data:ConnectionStrings:ConnectionString"]));
             services.AddTransient<IUserRepository, EFUserRepository>();
             services.AddMvc();
         }

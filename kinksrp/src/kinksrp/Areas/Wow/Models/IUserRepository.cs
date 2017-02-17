@@ -9,5 +9,6 @@ namespace kinksrp.Areas.Wow.Models
     public interface IUserRepository
     {
         IEnumerable<User> Users { get; }
+        void SaveChanges(); 
     }
 }

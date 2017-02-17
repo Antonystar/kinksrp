@@ -17,5 +17,8 @@ namespace kinksrp.Areas.Wow.Models
         public DbSet<Message> Messages { get; set; }
         public DbSet<Post> Posts { get; set; }
         public DbSet<Section> Sections { get; set; }
+        public DbSet<MessageLike> MessageLikes { get; set; }
+        public DbSet<PostLike> PostLikes { get; set; }
+        public DbSet<UserProfileLike> UserProfileLikes { get; set; }
     }
 }

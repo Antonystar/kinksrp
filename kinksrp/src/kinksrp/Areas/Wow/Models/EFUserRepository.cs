@@ -16,5 +16,10 @@ namespace kinksrp.Areas.Wow.Models
         }
 
         public IEnumerable<User> Users => context.Users;
+
+        public void SaveChanges()
+        {
+            context.SaveChanges();
+        }
     }
 }

@@ -7,5 +7,6 @@ namespace kinksrp.Areas.Wow.Models.ViewModel
 {
     public class WowViewModel
     {
+        public IEnumerable<User> Users { get; set; }
     }
 }

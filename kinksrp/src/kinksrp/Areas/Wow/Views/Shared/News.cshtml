@@ -6,5 +6,11 @@
     </div>
     <div class="wow-block-body" style="height:200px;" >
         Содержание новостей
+        @foreach (User user in Model.Users)
+        {
+            @user.Name @:   
+            @user.Reputation
+
+        }
     </div>
 </div>

@@ -6,17 +6,16 @@ using System.Threading.Tasks;
 
 namespace kinksrp.Areas.Wow.Models
 {
-    public class Message
+    public class MessageLike
     {
+        public int MessageLikeID { get; set; }
+        [ForeignKey("MessageID")]
         public int MessageID { get; set; }
-        [ForeignKey("PostID")]
-        public int PostID { get; set; }
         [ForeignKey("UserID")]
         public int UserID { get; set; }
-        public string Content { get; set; }
-        public DateTime Date { get; set; }
+        public bool Up { get; set; }
 
-        public virtual Post Post { get; set; }
+        public virtual Message Message { get; set; }
         public virtual User User { get; set; }
     }
 }

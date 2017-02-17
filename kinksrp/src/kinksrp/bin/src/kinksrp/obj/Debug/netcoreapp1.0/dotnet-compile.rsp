@@ -213,11 +213,15 @@ C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp
 C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\Areas\Wow\Models\EFUserRepository.cs
 C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\Areas\Wow\Models\IUserRepository.cs
 C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\Areas\Wow\Models\Message.cs
+C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\Areas\Wow\Models\MessageLike.cs
 C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\Areas\Wow\Models\Post.cs
+C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\Areas\Wow\Models\PostLike.cs
 C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\Areas\Wow\Models\Section.cs
 C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\Areas\Wow\Models\User.cs
+C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\Areas\Wow\Models\UserProfileLike.cs
 C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\Areas\Wow\Models\ViewModel\WowViewModel.cs
 C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\Controllers\HomeController.cs
-C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\Migrations\20170216090452_Initial.cs
-C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\Migrations\20170216090452_Initial.Designer.cs
+C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\Infrastructure\AccessManager.cs
+C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\Migrations\20170217140311_Initial.cs
+C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\Migrations\20170217140311_Initial.Designer.cs
 C:\Users\Anton\Documents\Visual Studio 2015\Projects\kinksrp\kinksrp\src\kinksrp\Migrations\ApplicationDbContextModelSnapshot.cs
